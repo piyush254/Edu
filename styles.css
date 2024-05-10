@@ -47,12 +47,12 @@ nav img{
 
 .heroleft {
   width: 48vw;
-  height: 80vh;
+  height: 50vh;
   /* border: 2px solid black; */
 }
 .heroright {
   width: 48vw;
-  height: 80vh;
+  height: 50vh;
   /* border: 2px solid black; */
 }
 
@@ -66,7 +66,7 @@ nav img{
 }
 
 .heroright {
-  background-image: url(https://images.pexels.com/photos/1206101/pexels-photo-1206101.jpeg?auto=compress&cs=tinysrgb&w=600);
+background-image: url(./doctor.jpg);
   background-size: cover;
 }
 
@@ -85,7 +85,7 @@ nav img{
   text-decoration: none;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 .whatsappFixed {
   height: 50px;
@@ -106,6 +106,7 @@ nav img{
   margin-top: 15vh;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
   /* align-items: flex-start; */
   justify-content: center;
   background-color: #f9fdfd;
@@ -133,7 +134,7 @@ nav img{
   box-shadow: 0px 0px 20px 5px rgb(154, 151, 151);
 }
 .addsens p {
-  margin-top: 7%;
+  margin-top: 1%;
 }
 .darker {
   font-weight: 700;
@@ -173,7 +174,8 @@ nav img{
 }
 
 .redContentDiv {
-  padding: 0% 2%;
+  padding: 1% 2%;
+  width: 99vw;
   background-color: red;
   color: white;
 }
@@ -290,4 +292,19 @@ nav img{
   margin-top: 2%;
   margin-bottom: 1%;
   font-weight: 600;
+}
+
+.citydiv{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.citydiv1{
+  width: 47%;
+}
+.citydiv2{
+  width: 47%;
 }
